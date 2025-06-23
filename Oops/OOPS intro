@@ -1,0 +1,102 @@
+1 Code reusability 
+    -Functions / Methods
+    -Types of relation 
+        IS a relation 
+        HAS a relation 
+        USES a relation
+2 Data Security
+    --DAta encapsulation
+        --Acess Modifiers 
+            -public 
+            -private
+            -protected
+            -default
+
+3 Easy
+    -to test applications
+    -debug the applications
+    -Maintain the applications
+
+4 Co relate to
+    real world scenarious
+
+5 Modular in Nature\
+
+
+Object Oriented Programming 
+8 types of principles 
+1) class
+2) Object
+3) data Abstraction
+4) Data Encapsulation
+5) Inheritance
+6) Polymorphism
+7) Dyanamic Binding
+8) Message passing
+
+
+
+
+Problem Statement / USer Story / REquirements 
+--Eligible Nouns Will
+    Be converted as Classes.
+--Adjectives of the noun will be converted
+    as data memebers
+--The works which are all carried out by the noun
+    will be considered as member methods
+
+
+
+
+    Employee-empid , emp_name , dob , contact number 
+    trainee - traineeID , firstname , lastname , contactNumber , password , emailid , skypeID , emergencyContactNumber , bloodGroup
+    CourseDetails
+    BatchInfo
+    Dapartment
+
+
+
+This keyword can be used at
+variable level
+method level 
+as a method argument 
+as a method return type 
+at constructor level 
+represents cuurent instance
+
+
+
+
+Different ways to initialize The object state
+==============================================\
+1) objectname.propertyname = value
+    ex- Employee.empId=39
+2) objectNAme.methodNAme(...)
+    ex-employee.initialize(29 , "Saiteja ")
+
+3) ObjectName.SetterMethod(value)
+    employee.setEmpPas("dhujfb)
+    employee.setEmpPas("dhujfb)
+
+
+4) Insttance block 
+{
+    empNAme="yashwanth"
+}
+
+5) constructor 
+    Employee employee = new Employee(29,"Saiteja")
+
+
+
+
+
+
+
+
+State of an object
+-----------------------------------------------------
+-The data which is going to be stored inside of object memory location at the current instance of time is notbing but state of an object 
+
+-The state of an object might change or might not change during execution of a program or during object lifecycle 
+
